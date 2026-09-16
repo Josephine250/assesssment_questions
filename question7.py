@@ -1,14 +1,14 @@
-def find_longest(sentence):
+def find_longone(sentence):
     words = sentence.split()
-    longest = words[0]
+    long = words[0]
 
     for word in words:
-        if len(word) > len(longest):
-            longest = word
+        if len(word) > len(long):
+            long = word
 
-    return longest
+    return long
 
 
-sentence = "i love programming challenges"
+sentence = "i love your languages"
 
-print(find_longest(sentence))
+print(find_longone(sentence))
